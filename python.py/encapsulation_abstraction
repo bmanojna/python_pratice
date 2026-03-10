@@ -1,0 +1,17 @@
+#class demo():
+ #     def __init__(self,a,b):
+  #       self.__a=a
+  #       self._b=b
+#class demo1(demo):
+  #   def output(self):
+    #      print(self._demo__a)
+#d=demo1(3,4)
+#d=demo(3,4)
+##print(d._demo__a)
+
+def add(x,y):
+   print(x+y)
+add(7,7)
+add('hello','world')
+add([1,2],[3,4])
+add((1,2),(7,7))
