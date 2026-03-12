@@ -39,7 +39,7 @@ elif key < 0:
 else:
     print(key,"is zero",key)
 
-    #square of a number
+    # square of a number of a number
     num=(int(input("enter a number: ")))
-    square=num**2
+    square = num**2
     print(num,"the square of number is",square)
