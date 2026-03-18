@@ -1,6 +1,6 @@
+#printing out the letters
 x = ("a,b,c,d,e,f")
 print("the letters",x)
-
 x = ("manu","mano","madhu")
 print("x")
 
@@ -15,11 +15,11 @@ reversed_Y = ''.join(sorted(Y, reverse=True))
 print("the reversed string",reversed_Y)
 
 # palindrome check
-x = ("manu")
-word = ''.join(x)
-palindrome = word == word[::-1]
-print("the palindrome of x",x)
-
+text = input("enter a text").lower
+if text == text[::-1]
+   print("it is an palindrome")
+else :
+   print("it is not a palindrome")
 # count vowels
 vowels = ("a","e","i","o","u")
 size = len(vowels)
